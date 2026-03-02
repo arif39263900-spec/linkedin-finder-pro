@@ -1,2 +1,24 @@
-# linkedin-finder-pro
-A Python tool to verify business emails and automatically find LinkedIn profiles from Excel data.
+# 🚀 Smart Lead Verifier & LinkedIn Finder
+
+এটি একটি শক্তিশালী পাইথন টুল যা আপনার এক্সেল ফাইল থেকে বিজনেস ইমেইল ভেরিফাই করে এবং স্বয়ংক্রিয়ভাবে সংশ্লিষ্ট লিঙ্কডইন প্রোফাইল খুঁজে বের করে। এটি ডেটা স্ক্র্যাপিং এবং লিড জেনারেশনের কাজকে অনেক সহজ করে দেয়।
+
+## ✨ মূল বৈশিষ্ট্য (Features)
+- **Email Validation:** ইমেইল ফরম্যাট চেক করে এবং ভ্যালিড ইমেইলগুলো আলাদা করে।
+- **LinkedIn Auto-Finder:** ওয়েবসাইট এবং DuckDuckGo সার্চ ইঞ্জিন ব্যবহার করে সঠিক লিঙ্কডইন কোম্পানি বা পার্সোনাল প্রোফাইল খুঁজে বের করে।
+- **Privacy Focused:** কোডটি এমনভাবে ডিজাইন করা হয়েছে যাতে এটি আপনার পিসির কোনো ব্যক্তিগত পাথ (Path) বা ডাটা প্রকাশ না করে।
+- **Anti-Bot Protection:** গুগল বা অন্যান্য সার্চ ইঞ্জিনের ব্লক এড়াতে এতে র‍্যান্ডম টাইম ডিলে (Random Delay) যোগ করা হয়েছে।
+
+## 🛠 যা যা প্রয়োজন (Requirements)
+এই টুলটি চালানোর জন্য আপনার পিসিতে পাইথন এবং নিচের লাইব্রেরিগুলো থাকা প্রয়োজন:
+- `pandas`
+- `openpyxl`
+- `requests`
+- `beautifulsoup4`
+- `email-validator`
+- `ddgs` (DuckDuckGo Search)
+
+## 🚀 কীভাবে ব্যবহার করবেন (Usage)
+১. রিপোজিটরিটি ডাউনলোড বা ক্লোন করুন।
+২. প্রয়োজনীয় লাইব্রেরিগুলো ইনস্টল করুন:
+   ```bash
+   pip install -r requirements.txt
